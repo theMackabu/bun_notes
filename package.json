@@ -8,10 +8,13 @@
     "hono": "^2.0.0",
     "ky": "^0.31.3",
     "nano-markdown": "^1.2.1",
-    "nanoid": "^4.0.0"
+    "nanoid": "^4.0.0",
+    "typescript": "^4.8.4"
   },
   "scripts": {
-    "start": "bun run pkg/server.ts"
+    "start": "bun run dist/server.js",
+    "dev": "bun run pkg/server.ts",
+    "build": "tsc"
   },
   "module": "pkg/server.js"
 }
