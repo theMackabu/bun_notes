@@ -11,7 +11,7 @@
     "nanoid": "^4.0.0"
   },
   "scripts": {
-    "start": "bun run src/index.ts"
+    "start": "bun run pkg/server.ts"
   },
-  "module": "src/index.js"
+  "module": "pkg/server.js"
 }
