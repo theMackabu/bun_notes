@@ -60,8 +60,8 @@ const pageBody = (notes: Array<any>) => html`
          </div>
       </div>
    </div>
-   </div>
-   </div>`
+ </div>
+</div>`
 
 client.get('/', (res) => {
    const notes = getCominedRows(classes).map(item => item.data).flat()
